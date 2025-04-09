@@ -12,15 +12,15 @@ const config: HardhatUserConfig = {
         hardhat: {
             chainId: 31337,
             forking: {
-                url: 'https://eth-pokt.nodies.app',
+                url: 'https://rpc.payload.de',
                 // blockNumber: 18446744073709551615,
             },
-            accounts: [
-                {
-                    privateKey: process.env.ACCOUNT_PK,
-                    balance: '1000000000000000000000000',
-                },
-            ],
+            // accounts: [
+            //     {
+            //         privateKey: process.env.ACCOUNT_PK,
+            //         balance: '1000000000000000000000000',
+            //     },
+            // ],
         },
         localhost: {
             chainId: 31337,
